@@ -87,7 +87,6 @@ function BottomTabNavigator() {
       <BottomTab.Screen
         name='Home'
         component={TabOneNavigator}
-        
         options={{
           headerTitle: '',
           headerShown: false,

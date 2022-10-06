@@ -12,15 +12,12 @@ const AlbumHeader = (props: AlbumHeaderProps) => {
   const { album } = props;
     return (
     <View style={styles.container}>
-        <Image source={{ url: album.imageUrl }} style={styles.image} />
-      {/* Name */}
+      <Image source={{ url: album.imageUrl }} style={styles.image} />
       <Text style={styles.name}>{album.name}</Text>
-      {/* Creator Number of Likes */}
       <View style={styles.creatorContainer}>
         <Text style={styles.creator}>By {album.by}</Text>
         <Text style={styles.likes}>{album.numberofLikes} Likes</Text>
       </View>
-      {/* Play button */}
       <TouchableOpacity>
         <View style={styles.button}>
             <Text style={styles.buttonText}>PLAY</Text>
