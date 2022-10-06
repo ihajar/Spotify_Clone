@@ -7,7 +7,7 @@ import AlbumCategory from '../components/AlbumCategory';
 
 import albumCategories from '../data/albumCategories';
 
-export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <FlatList
@@ -16,11 +16,9 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
           <AlbumCategory 
             title={item.title}
             albums={item.albums}
-            keyExtractor={(item) => item.id}
-          />
-        
-        
+          /> 
         )}
+        keyExtractor={(item) => item.id}
       />
     </View>
   );
