@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
     container: {
         position: 'absolute',
         bottom: 49,
-        flexDirection: 'row',
         backgroundColor: '#131313',
         width: '100%',
         borderWidth: 2,
@@ -16,6 +15,15 @@ const styles = StyleSheet.create({
         width: 75,
         height: 75,
         marginRight: 10,
+    },
+    progress: {
+        height: 3,
+        backgroundColor: '#1DD05D',
+    },
+    row: {
+
+        flexDirection: 'row',
+
     },
     rightContainer: {
         flexDirection: 'row',
