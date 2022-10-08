@@ -1,7 +1,7 @@
 export default [{
     id: '1',
     title: 'Happy Vibes',
-    albums: [
+    albums: [ 
       {
         id: '1',
         imageUrl: 'https://s.abcnews.com/images/Entertainment/ABC_taylor_swift_jef_140818_4x3t_992.jpg',

@@ -8,7 +8,7 @@ import { Sound } from 'expo-av/build/Audio/Sound'
 
 const song = {
     id: '1',
-    uri: 'https://soundcloud.com/taylormusic2019/18-dont-blame-me-live-2018?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+    uri: 'https://www.mboxdrive.com/Taylor_Swift_Shake_It_Off.mp3',
     imageUrl: 'https://s.abcnews.com/images/Entertainment/ABC_taylor_swift_jef_140818_4x3t_992.jpg',
     title: 'Blank Space',
     artist: 'Taylor Swift',
